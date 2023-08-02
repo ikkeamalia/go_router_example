@@ -30,6 +30,7 @@ class _HomePageState extends State<HomePage> {
               onDestinationSelected(index, context);
             },
           ),
+          VerticalDivider(thickness: 1, width: 1),
           Expanded(child: widget.content)
         ],
       ),
